@@ -10,5 +10,6 @@ Future plans
 
 Ability to add an ender chest
 Session persistance
-Setup a docking station?
+Setup a docking station
+
 
