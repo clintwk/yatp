@@ -42,7 +42,7 @@ if #tArgs == 3 then
 		progHelp()
 		return
 	end
-	local direction = tArgs[3]
+	direction = tArgs[3]
 	if direction ~= "L" and direction ~= "l" and direction ~= "R" and direction ~= "r" then
 		print( "Please enter the direction you would like your branches to go (either L or R)" )
 		progHelp()
@@ -194,7 +194,7 @@ end
 
 for b=1,branches do
 	tunnel(1, length)
-	if b <= branches and b ~= 1 then
+	if b ~= 1 then
 		connectBranch()
 	end
 	if b ~= branches then
