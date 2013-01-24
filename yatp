@@ -48,7 +48,7 @@ if #tArgs == 3 then
 		progHelp()
 		return
 	end
-	if direction == "L" or "l" then
+	if direction == "L" or direction == "l" then
 		direction = "L"
 	else
 		direction = "R"
